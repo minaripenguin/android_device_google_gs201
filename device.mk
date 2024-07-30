@@ -693,6 +693,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.max_frame_buffer_acquir
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.supports_background_blur=1
 PRODUCT_SYSTEM_PROPERTIES += ro.launcher.blur.appLaunch=0
 
+PRODUCT_PRODUCT_PROPERTIES += persist.device_config.mglru_native.lru_gen_config=all
+
 # Must align with HAL types Dataspace
 # The data space of wide color gamut composition preference is Dataspace::DISPLAY_P3
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.wcg_composition_dataspace=143261696
