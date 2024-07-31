@@ -212,7 +212,7 @@
           "Params":
           {
             "Controller": "cpuset",
-            "Path": "top-app"
+            "Path": "display"
           }
         },
         {
@@ -235,7 +235,7 @@
           "Params":
           {
             "Controller": "cpuset",
-            "Path": "top-app"
+            "Path": "display"
           }
         },
         {
