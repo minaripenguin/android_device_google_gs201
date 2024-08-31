@@ -667,7 +667,7 @@ PRODUCT_PACKAGES += displaycolor_service
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	debug.sf.disable_backpressure=0 \
+	debug.sf.disable_backpressure=1 \
 	debug.sf.enable_gl_backpressure=1 \
 	debug.sf.enable_sdr_dimming=1 \
 	debug.sf.dim_in_gamma_in_enhanced_screenshots=1
