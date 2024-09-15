@@ -45,4 +45,6 @@
     <item>0</item>
     <item>1</item>
   </string-array>
+    <string name="config_healthy_charge_control_max_level_path">/sys/devices/platform/google,charger/charge_stop_level</string>
+    <string name="config_healthy_charge_control_start_level_path">/sys/devices/platform/google,charger/charge_start_level</string>
 </resources>
