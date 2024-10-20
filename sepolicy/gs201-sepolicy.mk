@@ -7,6 +7,10 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/input
 # google_battery service
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
 
+# wifi sepolicies
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/wifi_perf_diag
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/wifi_sniffer
+
 # sepolicy that are shared among devices using whitechapel
 BOARD_SEPOLICY_DIRS += device/google/gs201/sepolicy/whitechapel_pro
 
